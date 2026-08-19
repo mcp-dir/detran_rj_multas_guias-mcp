@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_rj_multas_guias-mcp",
+  "title": "DETRAN RJ: Multas (Guia de Recolhimento de Multas)",
+  "description": "DETRAN RJ: Multas (Guia de Recolhimento de Multas), official-source lookup. Platform-hosted, pay per",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_rj_multas_guias-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_rj_multas_guias"
+    }
+  ]
+}
